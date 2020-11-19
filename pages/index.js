@@ -31,7 +31,7 @@ export default function Home() {
 
           
           <div className={styles.twitterTweet}>
-            <blockquote >
+            <blockquote class="twitter-tweet">
 
             <p lang="pt" dir="ltr">
               Sempre quis fazer esse experimento social de criatividade com os amigos desenvolvedores pra ver o que sai mas nunca rolou:
