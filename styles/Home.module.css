@@ -15,7 +15,7 @@
   height: 37px;
   width: 47px;
   top: 147px;
-  left: 40px;
+  left: 50px;
   border-radius: 0px 0px 20px 20px;
 }
 
@@ -23,7 +23,7 @@
   content: "";
   position: absolute;
   height: 0%;
-  width: 42%;
+  width: 47%;
   border-top: 40px solid white;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
@@ -39,6 +39,20 @@
 
 .bulb{
   position: absolute;
-  top: 35%;
-  left: 43%;
+  top: 50%;
+  left: 50%;
+}
+
+
+.title{
+  color:white
+}
+
+.description{
+  color:white
+}
+
+.main{
+  justify-content: center;
+  text-align: center;
 }
