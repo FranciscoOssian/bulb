@@ -16,3 +16,52 @@
 .grid{
   display: grid;
 }
+
+.turnBulb{
+  position: relative;
+  width: 120px;
+  height: 120px;
+  outLine: none;
+  -webkit-appearance: none;
+  background-color: white;
+  border-radius: 50%;
+}
+.turnBulb:before{
+  content: "";
+  position: absolute;
+  background-color: grey;
+  height: 37px;
+  width: 47px;
+  top: 147px;
+  left: 40px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.turnBulb:after{
+  content: "";
+  position: absolute;
+  height: 0%;
+  width: 42%;
+  border-top: 40px solid white;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  top: 101.5px;
+  left : 17px;
+}
+
+.turnBulb:checked{
+  background-color: #FFF731;
+  box-shadow: 0px 0px 200px #FADF00;
+}
+
+
+.bulb{
+  position: absolute;
+  top: 35%;
+  left: 43%;
+}
+
+.twitterTweet{
+  position: absolute;
+  top: 100%;
+}

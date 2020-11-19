@@ -24,15 +24,14 @@ export default function Home() {
         <div className={styles.grid}>
 
           <div className={styles.lamp}>
-            <div className="bulb">
-              <input type="checkbox" class="turn-bulb"/>
+            <div className={styles.bulb}>
+              <input type="checkbox" className={styles.turnBulb}/>
             </div>
           </div>
 
           
-
-          <div>
-            <blockquote className="twitter-tweet">
+          <div className={styles.twitterTweet}>
+            <blockquote >
 
             <p lang="pt" dir="ltr">
               Sempre quis fazer esse experimento social de criatividade com os amigos desenvolvedores pra ver o que sai mas nunca rolou:
