@@ -69,3 +69,8 @@ body{
   top: 35%;
   left: 43%;
 }
+
+.twitter-tweet{
+  position: absolute;
+  top: 60%;
+}

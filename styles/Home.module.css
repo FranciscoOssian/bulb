@@ -1,48 +1,4 @@
 
-.turn-bulb{
-  position: relative;
-  width: 120px;
-  height: 120px;
-  outLine: none;
-  -webkit-appearance: none;
-  background-color: white;
-  border-radius: 50%;
-}
-.turn-bulb:before{
-  content: "";
-  position: absolute;
-  background-color: grey;
-  height: 37px;
-  width: 47px;
-  top: 147px;
-  left: 50px;
-  border-radius: 0px 0px 20px 20px;
-}
-
-.turn-bulb:after{
-  content: "";
-  position: absolute;
-  height: 0%;
-  width: 47%;
-  border-top: 40px solid white;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  top: 101.5px;
-  left : 17px;
-}
-
-.turn-bulb:checked{
-  background-color: #FFF731;
-  box-shadow: 0px 0px 200px #FADF00;
-}
-
-
-.bulb{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-}
-
 
 .title{
   color:white
@@ -55,4 +11,8 @@
 .main{
   justify-content: center;
   text-align: center;
+}
+
+.grid{
+  display: grid;
 }
